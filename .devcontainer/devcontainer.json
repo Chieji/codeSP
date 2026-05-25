@@ -1,0 +1,15 @@
+{
+  "name": "codeSP Dev Environment",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "postCreateCommand": "echo 'Ready for development'",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode-remote.remote-containers"
+      ]
+    }
+  }
+}
